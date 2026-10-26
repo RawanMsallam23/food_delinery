@@ -1,0 +1,18 @@
+# Source datasets are local-only and must not be committed.
+data/
+
+# Local-only project artifacts that should not be published.
+"sessipn 3/"
+"المشروع النهائي.pdf"
+
+# Python and Jupyter runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
